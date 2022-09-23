@@ -1,0 +1,137 @@
+#title{
+    background-color: #ff4c68;
+}
+.heading{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    color: white;
+    padding: 0 0 2.5rem;
+}
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+body{
+    font-family: 'Montserrat-regular 400 italic', sans-serif;
+}
+
+h2{
+    font-family: 'Montserrat SemiBold 600', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.navbar-brand{
+    font-weight: bold;
+    font-size: 2rem;
+    font-family: 'ubuntu', sans-serif;
+}
+.navbar{
+    padding: 0 0 4.5rem;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'Montserrat-thin', sans-serif;
+}
+
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+.title-image{
+    width: 60%;
+    transform: rotate(25deg);
+}
+
+.awesome{
+    color: #ef8172;
+    margin: 1rem;
+}
+.awesome:hover{
+    color:#ff4c68;
+}
+.term{
+    font-family: 'Montserrat-bold', sans-serif;
+    /*text-decoration: solid;*/
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.title-text{
+    color: #8f8f8f;
+}
+#features{
+    padding: 7% 15%;
+    text-align: center;
+    
+}
+
+/* testimonials */
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    color:#fff ;
+}
+
+.carousel-inner{
+    padding: 7% 15%;
+
+}
+
+.test-image{
+    margin: 20px;
+    border-radius: 100%;
+    width: 15%;
+}
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-image{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+#pricing{
+    padding: 100px;
+}
+.pricing-column{
+    padding: 3% 2%;
+    text-align: center;
+}
+.he{
+    text-align: center;
+}
+
+@media (max-width: 1028px)
+{
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 7% 15%;
+    line-height: 1.5;
+    color: #fff;
+    font-size: 5px;
+}
+
+#footer{
+    align-items: center;
+    text-align: center;
+    font-weight: 2px;
+    margin: 30px;
+}
+.ftext{
+    font-family: 'Montserrat', sans-serif;
+}
+.fimage {
+    padding: 20px 10px 15px;
+}
